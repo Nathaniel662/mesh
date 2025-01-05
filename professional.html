@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Shedrach">
+    <title>PMW</title>
+    
+    <style>
+      body {
+    font-family: Arial, sans-serif; margin: 0; padding: 0;
+    } 
+header { 
+   background-color: #f8f8f8; padding: 20px; text-align: center;
+}
+nav a {
+color:red;
+}
+a:visited {
+    color:red;
+}
+
+
+    a:hover, a:active {
+        color:blue;
+    }
+   main {
+        padding: 20px;
+        }
+section {
+    margin-bottom: 40px; 
+   }
+ footer {
+    background-color: black; color: #fff; padding: 10px; text-align: center; 
+   }
+   table, tr, th, td, caption {
+    border: 1px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+table, tr, th, td, caption {
+    background-color: #333;
+    color: whitesmoke;
+}
+textarea {
+    background-color:grey;
+    color: black;
+}
+
+    </style>
+<script>
+  // This is an example of a simple JavaScript function that can be used to toggle the visibility of the navigation menu on mobile devices.
+
+function toggleNav() {
+
+    var nav = document.querySelector('nav');
+
+nav.classList.toggle('nav-active');
+
+}
+function hello(){
+   alert('Goodbye from our web page!!');
+}
+
+
+</script>
+  </head>  
+    <body>
+        <header>
+    <h1>Welcome to the Offcial Website of Professional Mathematics!!</h1>
+
+</header>
+<hr>
+<nav aria-label="primary-navigation">
+    <ul>
+        <li>
+            <a href="#home">Home</a>        
+        </li>
+        <li>
+            <a href="about.html">About</a>
+        </li>
+        <li>
+            <a href="#sign in">Sign In</a>
+        </li>
+        <li>
+            <a href="#courses">Courses</a>
+        </li>
+        <li>
+            <a href="#contact">Contact Us</a>
+        </li>
+    </ul>
+</nav>
+
+<hr>
+<main>
+    <section id="home"> <h2>Welcome to Our Educational Website</h2>
+        <p>
+           This website is dedicated to providing high-quality educational lecturing and resources to students of all ages.
+       </p>
+        </section>
+         <section id="about"> <h2>Our Mission:</h2>
+            <p>
+               Our mission is to make learning fun and accessible for everyone.
+           </p>
+            </section>
+<article id="home">
+<h2>We are Always Ready for You.</h2>
+
+<section>
+<img src="img/home.jpg" alt="Home" width="300" height="300">
+</section>
+<section id="sign in">
+<h4>Create an Account with us.</h4>
+
+<div>
+    <ul>
+      Instructions:
+      <li>
+        Fill in the required information.
+      </li>
+      <li>
+        Click the button to sign in.
+      </li>
+    </ul>
+   </div>
+  <form>
+    <div>
+      <input name="Name" type="text"
+      placeholder="Surame" required>
+      <input name="Name" type="text"
+      placeholder="First Name" required>
+      <input name="Name" type="text"
+      placeholder="Last Name" required>
+    </div>
+    <p>
+    <div>
+      <input name="Email" type="text"
+      placeholder="Email" required>
+      <input name="password" type="password"
+      placeholder="password" required>
+      <input name="password" type="password"
+      placeholder="confirm password" required>
+    </div>
+  </p>
+  <p>
+    <div>
+      Gender:
+      <input name="Gender" type="radio"
+      value="Male" > Male
+      <input name="Gender" type="radio"
+      value="Female"> Female
+    </div>
+    </p>
+    <p>
+    <div>
+      <input name="country" list="countries" 
+      placeholder="country" required>
+      <datalist id="countries">
+        <option value="Afghanistan">
+        <option value="Albania">
+        <option value="Algeria">
+        <option value="Andorra">
+        <option value="Angola">
+        <option value="Antigua & Deps">
+        <option value="Argentina">
+        <option value="Armenia">
+        <option value="Australia">
+        <option value="Austrial">
+        <option value="Azerbaijan">
+        <option value="Bahamas">
+        <option value="bahrain">
+        <option value="Bangladesh">
+        <option value="Barbados">
+        <option value="Belarus">
+        <option value="Belgium">
+        <option value="Belize">
+        <option value="Benin">
+        <option value="Bhutan">
+        <option value="Bolivia">
+        <option value="Bosnia Herzegovina">
+        <option value="Botswana">
+        <option value="Brazil">
+        <option value="Brunei">
+        <option value="Bulgaria">
+        <option value="Burkina">
+        <option value="Burundi">
+        <option value="cambodia">
+        <option value="Cameroon">
+        <option value="Canada">
+        <option value="cape Verde">
+        <option value="Central African Republic">
+        <option value="Chad">
+        <option value="Chile">
+        <option value="China">
+        <option value="Colombia">
+        <option value="Comoros">
+        <option value="Congo">
+        <option value="Costo Rica">
+        <option value="Crotia">
+        <option value="Cuba">
+        <option value="Cyprus">
+        <option value="czech Republic">
+        <option value="Denmark">
+        <option value="Djibouti">
+        <option value="Dominica">
+        <option value="Dominica Republic">
+        <option value="East Timor">
+        <option value="Ecuador">
+        <option value="Egypt">
+        <option value="El Salvador">
+        <option value="Equatoria Guinea">
+        <option value="Eritrea">
+        <option value="Estonia">
+        <option value="Ethopia">
+        <option value="England">
+        <option value="Fiji">
+        <option value="Finland">
+        <option value="France">
+        <option value="Gabon">
+        <option value="Gambia">
+        <option value="georgia">
+        <option value="Germany">
+        <option value="Ghana">
+        <option value="Greece">
+        <option value="Grenada">
+        <option value="Guatemala">
+        <option value="Guinea">
+        <option value="Guinea-Blissau">
+        <option value="Guyana">
+        <option value="Haiti">
+        <option value="Honduras">
+        <option value="Hungary">
+        <option value="India">
+        <option value="Indonesia">
+        <option value="Iran">
+        <option value="Iraq">
+        <option value="Ireland">
+        <option value="Isreal">
+        <option value="Italy">
+        <option value="Ivorycoast">
+        <option value="Jamica">
+        <option value="Japan">
+        <option value="Jordan">
+      </option>
+      </datalist>
+    </div>
+    </p>
+   
+  <p>
+    <div>
+      <input name="city" type="text"
+      placeholder="city" required>
+    </div>
+  </p>
+  <p>
+    <div>
+      <input name="occupation" type="text"
+      placeholder="occupation" required>
+    </div>
+  </p>
+  <p>
+    <div>
+      <input name="Phone" type="text"
+      placeholder="Phone" id="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+    </p>
+    </div>
+  </p>
+<button>Sign In</button>
+</section>
+</article>
+<section id="courses">
+<h2>Our Courses</h2>
+<aside>
+    <details>
+        <summary>
+            Guess the <mark> number of courses </mark>we offer.
+        </summary>
+        <p>
+            <h3>We Offer Only Mathematics!</h3>
+        </p>
+        
+            <p>
+            <img src="img/mth3.jpg" alt="Mathematics Textbook" width="300" height="300">
+        </p>
+    </details>
+</aside>
+<br>
+<table> 
+    <caption>
+        Our Daily Schedule
+    </caption>
+    <thead>
+    <tr>
+        <th>&nbsp;</th>
+        <th>
+            Time
+        </th>
+        <th>
+            Activities
+        </th>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Morning</th>
+        <td>
+            <time datetime="08:00">8am</time>-<time datetime="12:00">12pm</time>
+        </td>
+        <td>
+            study for our course
+        </td>
+    
+    <tr>
+        <th>Break</th>
+        <td>
+            <time datetime="12:00">12pm</time>-<time datetime="13:00">1pm</time>
+        </td>
+        <td>
+            Eat Lunch
+        </td>
+    </tr>
+    <tr>
+        <th>Afternoon</th>
+        <td>
+            <time datetime="13:00">1pm</time>-<time datetime="17:00">5pm</time>
+        </td>
+        <td>
+            Study for Other Courses
+        </td>
+        <tr><th>Evening</th>
+            <td rowspan="2">All Other Times</td>
+            <td>
+                Free Time
+            </td>
+        </tr>
+       
+    <tr> <th>Night</th>
+        <td>Sleep</td>
+    </tr>
+    
+    </tr>
+</tbody>
+<tfoot>
+    <tr>
+        <td colspan="3">
+            This are our daily schedule(recomended)
+        </td>
+    </tr>
+</tfoot>
+</table>
+</section>
+<article id="contact">
+
+    <h2>Contact Us</h2>
+    <p>We will really like to hear from you!</p>
+    <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+            <legend>
+            Personal Info
+            </legend>
+        <p>
+        <label for="firstName"> First Name:</label>
+<input type="text" name="lastName" id="lastName">
+</p>
+<p>
+        <label for="lastName"> Last Name:</label>
+<input type="text" name="lastName" id="lastName">
+</p>
+<p>
+        <label for="Email"> Email Add:</label>
+<input type="text" name="Email" id="Email">
+</p>
+<p>
+        <label for="password"> Password:</label>
+<input type="password" name="password" id="password">
+</p>
+<p>
+        <label for="phone"> Phone No:</label>
+<input type="tel" name="phone" id="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" >
+</p>
+
+<p>
+    <label for="phone"> Country:</label>
+      <input name="country" list="countries" >
+      <datalist id="countries">
+        <option value="Afghanistan">
+        <option value="Albania">
+        <option value="Algeria">
+        <option value="Andorra">
+        <option value="Angola">
+        <option value="Antigua & Deps">
+        <option value="Argentina">
+        <option value="Armenia">
+        <option value="Australia">
+        <option value="Austrial">
+        <option value="Azerbaijan">
+        <option value="Bahamas">
+        <option value="bahrain">
+        <option value="Bangladesh">
+        <option value="Barbados">
+        <option value="Belarus">
+        <option value="Belgium">
+        <option value="Belize">
+        <option value="Benin">
+        <option value="Bhutan">
+        <option value="Bolivia">
+        <option value="Bosnia Herzegovina">
+        <option value="Botswana">
+        <option value="Brazil">
+        <option value="Brunei">
+        <option value="Bulgaria">
+        <option value="Burkina">
+        <option value="Burundi">
+        <option value="cambodia">
+        <option value="Cameroon">
+        <option value="Canada">
+        <option value="cape Verde">
+        <option value="Central African Republic">
+        <option value="Chad">
+        <option value="Chile">
+        <option value="China">
+        <option value="Colombia">
+        <option value="Comoros">
+        <option value="Congo">
+        <option value="Costo Rica">
+        <option value="Crotia">
+        <option value="Cuba">
+        <option value="Cyprus">
+        <option value="czech Republic">
+        <option value="Denmark">
+        <option value="Djibouti">
+        <option value="Dominica">
+        <option value="Dominica Republic">
+        <option value="East Timor">
+        <option value="Ecuador">
+        <option value="Egypt">
+        <option value="El Salvador">
+        <option value="Equatoria Guinea">
+        <option value="Eritrea">
+        <option value="Estonia">
+        <option value="Ethopia">
+        <option value="England">
+        <option value="Fiji">
+        <option value="Finland">
+        <option value="France">
+        <option value="Gabon">
+        <option value="Gambia">
+        <option value="georgia">
+        <option value="Germany">
+        <option value="Ghana">
+        <option value="Greece">
+        <option value="Grenada">
+        <option value="Guatemala">
+        <option value="Guinea">
+        <option value="Guinea-Blissau">
+        <option value="Guyana">
+        <option value="Haiti">
+        <option value="Honduras">
+        <option value="Hungary">
+        <option value="India">
+        <option value="Indonesia">
+        <option value="Iran">
+        <option value="Iraq">
+        <option value="Ireland">
+        <option value="Isreal">
+        <option value="Italy">
+        <option value="Ivorycoast">
+        <option value="Jamica">
+        <option value="Japan">
+        <option value="Jordan">
+      </option>
+      </datalist>
+    </p>
+</fieldset>
+<br>
+<fieldset>
+<legend>
+    Chose your favourite Mathematics!
+</legend>
+<p>
+    <input type="radio" name="maths" id="Algebra" value="Algebra">
+    <label for="Algebra"> Algebra</label>
+</p>
+<p>
+    <input type="radio" name="maths" id="Trigonometry" value="Trigonometry">
+    <label for="Trigonometry"> Trigonometry</label>
+</p>
+<p>
+    <input type="radio" name="maths" id="Calculus" value="Calculus">
+    <label for="Calculus"> Calculus</label>
+</p>
+<p>
+    <input type="radio" name="maths" id="Vector" value="Vector">
+    <label for="Vector"> Vector</label>
+</p>
+<p>
+    <input type="radio" name="maths" id="Others" value="Others">
+    <label for="Others"> Others</label>
+</p>
+</fieldset>
+<fieldset id="foo">
+    <legend>
+        Send us a Message
+    </legend>
+    <label for="message">Your Message</label>
+    <br>
+    <textarea name="message" id="message" cols="40" rows="10"></textarea>
+</fieldset>
+<br>
+<button type="submit" onclick="hello()">Submit</button>
+<button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+<button type="reset" onclick="hello()">Reset</button>
+
+    </form>
+</article>
+</main>
+    <hr>
+    <section>
+        <p>
+            <a href="#"><h2>Back to Top</h2></a>
+        </p>
+    </section>
+    <footer>
+<p>
+    &lt; &lt; &lt; &copy; <a href="about.html">She'drach</a> &gt; &gt; &gt;
+</p>
+    
+    </footer>
+    </body>
+    
+    </html>
